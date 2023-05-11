@@ -20,3 +20,6 @@ console.log(favNumber);
 // Infine scrivi sulla pagina nomecognomecolorepreferito21
 let yourPassword = myName + surname + favNumber + '21';
 console.log(yourPassword);
+
+document.getElementById("my_magicpassword").textContent = "Your magic Super Password is: " + yourPassword;;
+
