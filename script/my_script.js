@@ -14,8 +14,11 @@ const surname = prompt("Qual è il tuo cognome?");
 console.log(surname);
 
 // poi chiedi il suo colore preferito,
-const MyColor = prompt("Qual è il tuo colore preferito?");
-console.log(MyColor);
+const myColor = prompt("Qual è il tuo colore preferito? (scrivilo in inglese)");
+console.log(myColor);
+
+// trasforma il testo nel colore preferito
+document.getElementById("my_magicpassword").style.color = myColor;
 
 // poi chiedi il suo numero preferito
 const favNumber = prompt("Qual è il tuo numero preferito?");
