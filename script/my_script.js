@@ -13,7 +13,11 @@ console.log(myName);
 const surname = prompt("Qual è il tuo cognome?");
 console.log(surname);
 
-// poi chiedi il suo colore preferito
+// poi chiedi il suo colore preferito,
+const MyColor = prompt("Qual è il tuo colore preferito?");
+console.log(MyColor);
+
+// poi chiedi il suo numero preferito
 const favNumber = prompt("Qual è il tuo numero preferito?");
 console.log(favNumber);
 
