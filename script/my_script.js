@@ -17,9 +17,10 @@ console.log(surname);
 const favNumber = prompt("Qual è il tuo numero preferito?");
 console.log(favNumber);
 
-// Infine scrivi sulla pagina nomecognomecolorepreferito21
-const yourPassword = `${myName}${surname}${favNumber}21`;
+const favNumberTen = parseInt(favNumber) + 10;
 
+// Infine scrivi sulla pagina nomecognomecolorepreferito21
+const yourPassword = `${myName}${surname}${favNumberTen}21`;
 
 console.log(yourPassword);
 
