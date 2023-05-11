@@ -18,8 +18,9 @@ const favNumber = prompt("Qual è il tuo numero preferito?");
 console.log(favNumber);
 
 // Infine scrivi sulla pagina nomecognomecolorepreferito21
-const yourPassword = myName + surname + favNumber + '21';
+const yourPassword = `${myName}${surname}${favNumber}21`;
+
+
 console.log(yourPassword);
 
 document.getElementById("my_magicpassword").textContent = yourPassword;
-
