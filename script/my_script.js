@@ -21,5 +21,5 @@ console.log(favNumber);
 const yourPassword = myName + surname + favNumber + '21';
 console.log(yourPassword);
 
-document.getElementById("my_magicpassword").textContent = "Your Magic Super Password is: " + yourPassword;;
+document.getElementById("my_magicpassword").textContent = yourPassword;
 
